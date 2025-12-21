@@ -165,7 +165,7 @@ Here we call the reset counter, and DP update for `0x68`
 ```
 00007000 FD F7 3C FD     bl         #-0x2584 @0x00004a7c
 00007004 00 21           movs       r1,#0x0
-00007006 03 20           movs       r0,#0x3
+00007006 04 20           movs       r0,#0x4
 00007008 FC F7 28 FA     bl         #-0x3BAC @0x0000345c
 0000700C 00 21           movs       r1,#0
 0000700E 68 20           movs       r0,#0x68
