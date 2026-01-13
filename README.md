@@ -18,6 +18,9 @@ SWD identification:
 - Flash base address: 0x10000000
 - SRAM base address: 0x20000000
 
+Small RC motor can be replaced from aliexpress, search to "Mitoot 2g 3.7g 4.3g 5g 6g 8g Digital Micro Servo for RC Plane Drone Mini Car Helicopter Fixed-wing Wltoys K969 K989 XKS X450"
+Dimensions are 22.8mm width, 11.5mm depth and 23.7mm height which is the 8g plastic gear motor.
+
 ### Tuya Data Points
 
 - 0x66: raw type, move to X/Y 
