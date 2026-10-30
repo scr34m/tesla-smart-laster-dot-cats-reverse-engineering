@@ -7,6 +7,12 @@ Issues to be fixed:
 - switch off after 5 min
 - no Tuya DP values are changed when stopped
 
+### Documentation and tools
+
+- [docs/](docs/README.md) – firmware analysis: memory map, pins, main loop, Tuya protocol and DPs, RAM map, bootloader/OTA, the 5-minute timeout patch
+- [lasercat/](lasercat/README.md) – Go tool: direct BLE control from macOS (`on/off/small/medium/large`) and a Home Assistant MQTT bridge (light entity with colour-wheel positioning)
+- [mcu_ota/](mcu_ota/README.md) – MCU firmware update: `ble_ota.py` over Bluetooth through the Tuya module ([docs](docs/ble-ota.md)), `uart_ota.py` directly over the UART (fallback)
+
 The MCU markings are removed, but it was eventually identified as `hc32l110c6pa`, key parameters are:
 - Package: TSSOP20
 - Flash: 32KB (not locked)
